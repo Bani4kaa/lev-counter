@@ -2,7 +2,7 @@ import cv2
 import subprocess
 
 def main():
-    yolo_process = subprocess.Popen(["python", "detect.py", "--source", "0", "--weights", "bestv2.pt"], stdout=subprocess.PIPE)
+    yolo_process = subprocess.Popen(["python", "detect.py", "--source", "0", "--weights", "best.pt"], stdout=subprocess.PIPE)
 
     while True:
         detection_output = yolo_process.stdout.readline().strip().decode()
