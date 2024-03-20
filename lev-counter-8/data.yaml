@@ -1,0 +1,15 @@
+names:
+- 10leva
+- 20leva
+- 50leva
+- 5leva
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: lev-counter-nylvi
+  url: https://universe.roboflow.com/lev-counter/lev-counter-nylvi/dataset/8
+  version: 8
+  workspace: lev-counter
+test: ../test/images
+train: lev-counter-8/train/images
+val: lev-counter-8/valid/images
