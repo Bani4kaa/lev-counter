@@ -1,12 +1,3 @@
-names:
-- 10leva
-nc: 1
-roboflow:
-  license: CC BY 4.0
-  project: lev-counter-nylvi
-  url: https://universe.roboflow.com/lev-counter/lev-counter-nylvi/dataset/4
-  version: 4
-  workspace: lev-counter
-test: ../test/images
-train: lev-counter-4/train/images
-val: lev-counter-4/valid/images
+version https://git-lfs.github.com/spec/v1
+oid sha256:e561eb91ddbba089d2e85180f33ad40aca28da8ebed9b8839a03767cf4753f30
+size 296

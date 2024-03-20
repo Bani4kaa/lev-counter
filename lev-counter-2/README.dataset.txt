@@ -1,6 +1,3 @@
-# lev counter > 2024-02-19 5:40pm
-https://universe.roboflow.com/lev-counter/lev-counter-nylvi
-
-Provided by a Roboflow user
-License: CC BY 4.0
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5231ac2e7644edde788e6f09c4b4922416f6ee9ae5a451afe30b51b07be77e5b
+size 143
