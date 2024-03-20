@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ecea688a18134519c0f9d56032f54dc5a547e888919c65020166c8dbe8d9fe07
-size 969
+
+lev counter - v6 2024-02-29 4:51pm
+==============================
+
+This dataset was exported via roboflow.com on February 29, 2024 at 2:52 PM GMT
+
+Roboflow is an end-to-end computer vision platform that helps you
+* collaborate with your team on computer vision projects
+* collect & organize images
+* understand and search unstructured image data
+* annotate, and create datasets
+* export, train, and deploy computer vision models
+* use active learning to improve your dataset over time
+
+For state of the art Computer Vision training notebooks you can use with this dataset,
+visit https://github.com/roboflow/notebooks
+
+To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
+
+The dataset includes 1420 images.
+10leva are annotated in YOLO v5 PyTorch format.
+
+The following pre-processing was applied to each image:
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+
+No image augmentation techniques were applied.
+
+

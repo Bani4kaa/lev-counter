@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d4523de36bfec46b8e2c49b812b99d45a76d4a9d1c7ff0224c88dd05e327b4ac
-size 387
+from pathlib import Path
+import yaml
+import os
+
+yaml_file = "data.yaml"
+
+
+
+if not os.path.exists(yaml_file):
+    print(f"Error: {yaml_file} not found.")
+    exit()
+
+with open(yaml_file, "r") as f:
+    data = yaml.safe_load(f)
+
+command = f"python3 train.py --img 640 --batch 16 --epochs 10 --data {yaml_file} --weights yolov5s.pt --name lev-counter-8"
+
+os.system(command)

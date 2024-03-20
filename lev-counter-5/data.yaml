@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d4f57d8b781beda62f129d10716bbd103fb54407bacbbb710e25e86b0a92bd62
-size 296
+names:
+- 10leva
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: lev-counter-nylvi
+  url: https://universe.roboflow.com/lev-counter/lev-counter-nylvi/dataset/5
+  version: 5
+  workspace: lev-counter
+test: ../test/images
+train: lev-counter-5/train/images
+val: lev-counter-5/valid/images

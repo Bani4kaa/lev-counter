@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21b4712c553bc39e7934bf6b257bc4493b42b2cd5c6d519e91c51765d07dd335
-size 143
+# lev counter > 2024-02-29 4:45pm
+https://universe.roboflow.com/lev-counter/lev-counter-nylvi
+
+Provided by a Roboflow user
+License: CC BY 4.0
+

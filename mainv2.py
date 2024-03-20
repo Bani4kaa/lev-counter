@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f27bca0d3e2485484fb13a8bae11f76bf254c543a04e660d1d6532b62c733dbb
-size 470
+import subprocess
+
+def execute_detect_script():
+    command = ['python', 'detect.py', '--source', '2', '--device', '0', '--weights', 'best.pt']
+    
+    try:
+        # Execute the command
+        subprocess.run(command, check=True)
+    except subprocess.CalledProcessError as e:
+        print("Error executing command:", e)
+    except Exception as e:
+        print("An unexpected error occurred:", e)
+
+if __name__ == "__main__":
+    execute_detect_script()

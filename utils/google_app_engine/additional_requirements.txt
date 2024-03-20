@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:76f09160515cf50c69e9588e2e569658ff3bd753c36af3b90a9800a04073f5a3
-size 192
+# add these requirements in your app on top of the existing ones
+pip==23.3
+Flask==2.3.2
+gunicorn==19.10.0
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2ec6a1943959fab58f73dbd29d01b96a72e072540dbd5ee287fa2330b9b363b3
-size 385
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+"""Perform test request."""
+
+import pprint
+
+import requests
+
+DETECTION_URL = "http://localhost:5000/v1/object-detection/yolov5s"
+IMAGE = "zidane.jpg"
+
+# Read image
+with open(IMAGE, "rb") as f:
+    image_data = f.read()
+
+response = requests.post(DETECTION_URL, files={"image": image_data}).json()
+
+pprint.pprint(response)
