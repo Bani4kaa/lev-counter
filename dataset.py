@@ -13,6 +13,6 @@ if not os.path.exists(yaml_file):
 with open(yaml_file, "r") as f:
     data = yaml.safe_load(f)
 
-command = f"python3 train.py --img 640 --batch 16 --epochs 10 --data {yaml_file} --weights yolov5s.pt --name lev-counter-8"
+command = f"python3 export.py --weights best.pt --include tfjs"
 
 os.system(command)
